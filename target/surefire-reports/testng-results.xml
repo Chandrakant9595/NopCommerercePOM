@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NOP COMMERCE" duration-ms="207161" started-at="2020-06-24T11:32:01 IST" finished-at="2020-06-24T11:35:28 IST">
+    <groups>
+    </groups>
+    <test name="Nop Commerce" duration-ms="207161" started-at="2020-06-24T11:32:01 IST" finished-at="2020-06-24T11:35:28 IST">
+      <class name="com.nc.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="setUp" is-config="true" duration-ms="26176" started-at="2020-06-24T11:32:01 IST" finished-at="2020-06-24T11:32:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTheLoginPageURL()[pri:1, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="validateTheLoginPageURL" duration-ms="492" started-at="2020-06-24T11:32:28 IST" description="Validate the Login page URL" finished-at="2020-06-24T11:32:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheLoginPageURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="tearDown" is-config="true" duration-ms="744" started-at="2020-06-24T11:32:29 IST" finished-at="2020-06-24T11:32:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="setUp" is-config="true" duration-ms="9864" started-at="2020-06-24T11:32:29 IST" finished-at="2020-06-24T11:32:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTheLoginPageTitle()[pri:2, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="validateTheLoginPageTitle" duration-ms="25" started-at="2020-06-24T11:32:39 IST" description="Validate the Login page Title" finished-at="2020-06-24T11:32:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="tearDown" is-config="true" duration-ms="747" started-at="2020-06-24T11:32:39 IST" finished-at="2020-06-24T11:32:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="setUp" is-config="true" duration-ms="9978" started-at="2020-06-24T11:32:40 IST" finished-at="2020-06-24T11:32:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTheLoginFunctionality()[pri:3, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="validateTheLoginFunctionality" duration-ms="14362" started-at="2020-06-24T11:32:50 IST" description="Validate the Login functionality" finished-at="2020-06-24T11:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheLoginFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.LoginPageTest@9c10b7]" name="tearDown" is-config="true" duration-ms="1083" started-at="2020-06-24T11:33:04 IST" finished-at="2020-06-24T11:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nc.qa.testCases.LoginPageTest -->
+      <class name="com.nc.qa.testCases.CreateCustomerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="setUp" is-config="true" duration-ms="27350" started-at="2020-06-24T11:33:06 IST" finished-at="2020-06-24T11:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewCustomerPageURL()[pri:1, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="verifyAddNewCustomerPageURL" duration-ms="66" started-at="2020-06-24T11:33:33 IST" description="Verify the Add new customer URL" finished-at="2020-06-24T11:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewCustomerPageURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="tearDown" is-config="true" duration-ms="889" started-at="2020-06-24T11:33:33 IST" finished-at="2020-06-24T11:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="setUp" is-config="true" duration-ms="32228" started-at="2020-06-24T11:33:34 IST" finished-at="2020-06-24T11:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewCustomerPageTitle()[pri:2, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="verifyAddNewCustomerPageTitle" duration-ms="31" started-at="2020-06-24T11:34:06 IST" description="Verify the Add new customer Title" finished-at="2020-06-24T11:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewCustomerPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="tearDown" is-config="true" duration-ms="761" started-at="2020-06-24T11:34:06 IST" finished-at="2020-06-24T11:34:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="setUp" is-config="true" duration-ms="33350" started-at="2020-06-24T11:34:12 IST" finished-at="2020-06-24T11:34:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="verifyAddNewCustomer" duration-ms="7370" started-at="2020-06-24T11:34:46 IST" description="Verify the Add New Customer Test" data-provider="getDataFromExcel" finished-at="2020-06-24T11:34:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Virat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15-Jun-1990]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SLK SOFTWARE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="tearDown" is-config="true" duration-ms="733" started-at="2020-06-24T11:34:53 IST" finished-at="2020-06-24T11:34:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="setUp" is-config="true" duration-ms="27419" started-at="2020-06-24T11:34:54 IST" finished-at="2020-06-24T11:35:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="verifyAddNewCustomer" duration-ms="6362" started-at="2020-06-24T11:35:21 IST" description="Verify the Add New Customer Test" data-provider="getDataFromExcel" finished-at="2020-06-24T11:35:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10-Jul-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Accenture]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@1be30be]" name="tearDown" is-config="true" duration-ms="711" started-at="2020-06-24T11:35:28 IST" finished-at="2020-06-24T11:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nc.qa.testCases.CreateCustomerPageTest -->
+    </test> <!-- Nop Commerce -->
+  </suite> <!-- NOP COMMERCE -->
+</testng-results>

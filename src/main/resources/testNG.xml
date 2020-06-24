@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="NOP COMMERCE" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.nc.qa.extentReportListener.ExtentReportListenar"></listener>
+	</listeners>
+
+	<test name="Nop Commerce">
+		<classes>
+			<class name="com.nc.qa.testCases.LoginPageTest" />
+			<class name="com.nc.qa.testCases.CreateCustomerPageTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,7 @@
+com\nc\qa\pages\CreateCustomerPage.class
+com\nc\qa\pages\LoginPage.class
+com\nc\qa\util\TestUtil.class
+com\nc\qa\pages\DashboardPage.class
+com\nc\qa\base\TestBase.class
+com\nc\qa\pages\CustomersListPage.class
+com\nc\qa\extentReportListener\ExtentReportListenar.class
