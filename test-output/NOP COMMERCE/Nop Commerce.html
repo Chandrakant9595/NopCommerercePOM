@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Nop Commerce</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 24 11:15:36 IST 2020</td>
+<td>Started on:</td><td>Thu Jun 25 12:08:39 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>256 seconds (256604 ms)</td>
+<tr><td>Total time:</td><td>235 seconds (235691 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,62 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nc.qa.testCases.DeleteCustomerPageTest.deleteCustomerDetails()'><b>deleteCustomerDetails</b><br>Test class: com.nc.qa.testCases.DeleteCustomerPageTest<br>Test method: Delete the Customer details</td>
+<td><div><pre>java.lang.AssertionError: expected [×
+The customer has been deleted successfully.] but found [×
+The customer has been deleted successfully.]
+	at com.nc.qa.testCases.DeleteCustomerPageTest.deleteCustomerDetails(DeleteCustomerPageTest.java:56)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30926006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30926006'><pre>java.lang.AssertionError: expected [×
+The customer has been deleted successfully.] but found [×
+The customer has been deleted successfully.]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.nc.qa.testCases.DeleteCustomerPageTest.deleteCustomerDetails(DeleteCustomerPageTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.nc.qa.testCases.DeleteCustomerPageTest@1ee4730</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,40 +131,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.nc.qa.testCases.EditCustomerPageTest.editCustomerDetailsTest()'><b>editCustomerDetailsTest</b><br>Test class: com.nc.qa.testCases.EditCustomerPageTest<br>Test method: Verify the Edit Customer Test<br>Parameters: HP</td>
+<td></td>
+<td>5</td>
+<td>com.nc.qa.testCases.EditCustomerPageTest@a3193a</td></tr>
+<tr>
 <td title='com.nc.qa.testCases.LoginPageTest.validateTheLoginFunctionality()'><b>validateTheLoginFunctionality</b><br>Test class: com.nc.qa.testCases.LoginPageTest<br>Test method: Validate the Login functionality</td>
 <td></td>
-<td>22</td>
-<td>com.nc.qa.testCases.LoginPageTest@1b44aa2</td></tr>
+<td>11</td>
+<td>com.nc.qa.testCases.LoginPageTest@c85b0c</td></tr>
 <tr>
 <td title='com.nc.qa.testCases.LoginPageTest.validateTheLoginPageTitle()'><b>validateTheLoginPageTitle</b><br>Test class: com.nc.qa.testCases.LoginPageTest<br>Test method: Validate the Login page Title</td>
 <td></td>
 <td>0</td>
-<td>com.nc.qa.testCases.LoginPageTest@1b44aa2</td></tr>
+<td>com.nc.qa.testCases.LoginPageTest@c85b0c</td></tr>
 <tr>
 <td title='com.nc.qa.testCases.LoginPageTest.validateTheLoginPageURL()'><b>validateTheLoginPageURL</b><br>Test class: com.nc.qa.testCases.LoginPageTest<br>Test method: Validate the Login page URL</td>
 <td></td>
 <td>0</td>
-<td>com.nc.qa.testCases.LoginPageTest@1b44aa2</td></tr>
+<td>com.nc.qa.testCases.LoginPageTest@c85b0c</td></tr>
 <tr>
-<td title='com.nc.qa.testCases.CreateCustomerPageTest.verifyAddNewCustomer()'><b>verifyAddNewCustomer</b><br>Test class: com.nc.qa.testCases.CreateCustomerPageTest<br>Test method: Verify the Add New Customer Test<br>Parameters: Test@123, Virat, Singh, 15-Jun-1990, SLK SOFTWARE</td>
+<td title='com.nc.qa.testCases.CreateCustomerPageTest.verifyAddNewCustomer()'><b>verifyAddNewCustomer</b><br>Test class: com.nc.qa.testCases.CreateCustomerPageTest<br>Test method: Verify the Add New Customer Test<br>Parameters: Test@123, Virat, Singh, 15-Jun-1990, IBM</td>
 <td></td>
-<td>15</td>
-<td>com.nc.qa.testCases.CreateCustomerPageTest@1e366bb</td></tr>
-<tr>
-<td title='com.nc.qa.testCases.CreateCustomerPageTest.verifyAddNewCustomer()'><b>verifyAddNewCustomer</b><br>Test class: com.nc.qa.testCases.CreateCustomerPageTest<br>Test method: Verify the Add New Customer Test<br>Parameters: Test@123, Rohit, Sharma, 10-Jul-1992, Accenture</td>
-<td></td>
-<td>6</td>
-<td>com.nc.qa.testCases.CreateCustomerPageTest@1e366bb</td></tr>
+<td>7</td>
+<td>com.nc.qa.testCases.CreateCustomerPageTest@1d69f5a</td></tr>
 <tr>
 <td title='com.nc.qa.testCases.CreateCustomerPageTest.verifyAddNewCustomerPageTitle()'><b>verifyAddNewCustomerPageTitle</b><br>Test class: com.nc.qa.testCases.CreateCustomerPageTest<br>Test method: Verify the Add new customer Title</td>
 <td></td>
 <td>0</td>
-<td>com.nc.qa.testCases.CreateCustomerPageTest@1e366bb</td></tr>
+<td>com.nc.qa.testCases.CreateCustomerPageTest@1d69f5a</td></tr>
 <tr>
 <td title='com.nc.qa.testCases.CreateCustomerPageTest.verifyAddNewCustomerPageURL()'><b>verifyAddNewCustomerPageURL</b><br>Test class: com.nc.qa.testCases.CreateCustomerPageTest<br>Test method: Verify the Add new customer URL</td>
 <td></td>
 <td>0</td>
-<td>com.nc.qa.testCases.CreateCustomerPageTest@1e366bb</td></tr>
+<td>com.nc.qa.testCases.CreateCustomerPageTest@1d69f5a</td></tr>
+<tr>
+<td title='com.nc.qa.testCases.EditCustomerPageTest.verifyEditCustomerPageTitleTest()'><b>verifyEditCustomerPageTitleTest</b><br>Test class: com.nc.qa.testCases.EditCustomerPageTest<br>Test method: Verify the Edit customer page Title</td>
+<td></td>
+<td>0</td>
+<td>com.nc.qa.testCases.EditCustomerPageTest@a3193a</td></tr>
 </table><p>
 </body>
 </html>

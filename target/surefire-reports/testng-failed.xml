@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [NOP COMMERCE]">
+  <listeners>
+    <listener class-name="com.nc.qa.extentReportListener.ExtentReportListenar"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Nop Commerce(failed)">
+    <classes>
+      <class name="com.nc.qa.testCases.CreateCustomerPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAddNewCustomer"/>
+          <include name="setUp"/>
+          <include name="verifyAddNewCustomerPageTitle"/>
+          <include name="verifyAddNewCustomerPageURL"/>
+        </methods>
+      </class> <!-- com.nc.qa.testCases.CreateCustomerPageTest -->
+    </classes>
+  </test> <!-- Nop Commerce(failed) -->
+</suite> <!-- Failed suite [NOP COMMERCE] -->

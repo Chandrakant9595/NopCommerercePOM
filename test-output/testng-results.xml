@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="122727" started-at="2020-06-24T13:18:26 IST" finished-at="2020-06-24T13:20:28 IST">
+  <suite name="Default suite" duration-ms="82211" started-at="2020-06-29T12:43:06 IST" finished-at="2020-06-29T12:44:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="122727" started-at="2020-06-24T13:18:26 IST" finished-at="2020-06-24T13:20:28 IST">
-      <class name="com.nc.qa.testCases.CreateCustomerPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@8e76f1]" name="setUp" is-config="true" duration-ms="48855" started-at="2020-06-24T13:18:29 IST" finished-at="2020-06-24T13:19:18 IST">
+    <test name="Default test" duration-ms="82211" started-at="2020-06-29T12:43:06 IST" finished-at="2020-06-29T12:44:28 IST">
+      <class name="com.nc.qa.testCases.DeleteCustomerRolesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.DeleteCustomerRolesPageTest@77b8cf]" name="setUp" is-config="true" duration-ms="33882" started-at="2020-06-29T12:43:06 IST" finished-at="2020-06-29T12:43:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.nc.qa.testCases.CreateCustomerPageTest@8e76f1]" name="verifyAddNewCustomer" duration-ms="12394" started-at="2020-06-24T13:19:18 IST" description="Verify the Add New Customer Test" data-provider="getDataFromExcel" finished-at="2020-06-24T13:19:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Virat]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Singh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[15-Jun-1990]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[IBM]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="deleteTheCustomerRoleTest()[pri:1, instance:com.nc.qa.testCases.DeleteCustomerRolesPageTest@77b8cf]" name="deleteTheCustomerRoleTest" duration-ms="46795" started-at="2020-06-29T12:43:40 IST" description="Delete the Customer role" finished-at="2020-06-29T12:44:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@8e76f1]" name="tearDown" is-config="true" duration-ms="854" started-at="2020-06-24T13:19:31 IST" finished-at="2020-06-24T13:19:31 IST">
+        </test-method> <!-- deleteTheCustomerRoleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.DeleteCustomerRolesPageTest@77b8cf]" name="tearDown" is-config="true" duration-ms="820" started-at="2020-06-29T12:44:27 IST" finished-at="2020-06-29T12:44:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@8e76f1]" name="setUp" is-config="true" duration-ms="46154" started-at="2020-06-24T13:19:32 IST" finished-at="2020-06-24T13:20:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.nc.qa.testCases.CreateCustomerPageTest@8e76f1]" name="verifyAddNewCustomer" duration-ms="9687" started-at="2020-06-24T13:20:18 IST" description="Verify the Add New Customer Test" data-provider="getDataFromExcel" finished-at="2020-06-24T13:20:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rohit]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Sharma]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[10-Jul-1992]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Accenture]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nc.qa.testCases.CreateCustomerPageTest@8e76f1]" name="tearDown" is-config="true" duration-ms="845" started-at="2020-06-24T13:20:27 IST" finished-at="2020-06-24T13:20:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.nc.qa.testCases.CreateCustomerPageTest -->
+      </class> <!-- com.nc.qa.testCases.DeleteCustomerRolesPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

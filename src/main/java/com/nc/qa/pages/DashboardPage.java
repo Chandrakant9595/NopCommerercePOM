@@ -18,6 +18,9 @@ public class DashboardPage extends TestBase{
 	@FindBy(xpath = "//a[@class='menu-item-link']/span[text()='Customers']")
 	WebElement subCustomersLink;
 	
+	@FindBy(xpath = "//span[text()='Customer roles']")
+	WebElement customerRolesLink;
+	
 	public DashboardPage() throws IOException {
 		super();
 		PageFactory.initElements(driver, this);
@@ -28,6 +31,13 @@ public class DashboardPage extends TestBase{
 		customersLink.click();
 		subCustomersLink.click();
 		return new CustomersListPage();
+	}
+	
+	@Step("Test step for click on Customer Roles link")
+	public CustomerRolesListPage clickOnCustomerRolesLink() throws IOException {
+		customersLink.click();
+		customerRolesLink.click();
+		return new CustomerRolesListPage();
 	}
 }
 

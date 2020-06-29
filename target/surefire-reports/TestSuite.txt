@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 215.048 s - in TestSuite
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 97.855 s <<< FAILURE! - in TestSuite
+setUp(com.nc.qa.testCases.CreateCustomerPageTest)  Time elapsed: 54.425 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'VICKY-PC', ip: '192.168.43.139', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\vicky\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c9c42a43961a9544ca6c497361e2557f
+	at com.nc.qa.testCases.CreateCustomerPageTest.setUp(CreateCustomerPageTest.java:42)
+

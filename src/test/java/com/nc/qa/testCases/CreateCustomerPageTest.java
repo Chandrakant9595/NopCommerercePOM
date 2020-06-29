@@ -83,3 +83,4 @@ public class CreateCustomerPageTest extends TestBase{
 		Assert.assertEquals(companyName, co);
 	}
 }
+         

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nc.qa.testCases.CreateCustomerPageTest">
+      <class name="com.nc.qa.testCases.DeleteCustomerRolesPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyAddNewCustomer"/>
           <include name="setUp"/>
+          <include name="deleteTheCustomerRoleTest"/>
         </methods>
-      </class> <!-- com.nc.qa.testCases.CreateCustomerPageTest -->
+      </class> <!-- com.nc.qa.testCases.DeleteCustomerRolesPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,6 +11,10 @@
 		<classes>
 			<class name="com.nc.qa.testCases.LoginPageTest" />
 			<class name="com.nc.qa.testCases.CreateCustomerPageTest" />
+			<class name="com.nc.qa.testCases.EditCustomerPageTest" />
+			<class name="com.nc.qa.testCases.DeleteCustomerPageTest" />
+			<class name="com.nc.qa.testCases.CreateCustomerRolesPageTest" />
+			<class name="com.nc.qa.testCases.EditCustomerRolesPageTest" />
 		</classes>
 	</test>
 </suite>
