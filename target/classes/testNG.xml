@@ -15,6 +15,7 @@
 			<class name="com.nc.qa.testCases.DeleteCustomerPageTest" />
 			<class name="com.nc.qa.testCases.CreateCustomerRolesPageTest" />
 			<class name="com.nc.qa.testCases.EditCustomerRolesPageTest" />
+			<class name="com.nc.qa.testCases.DeleteCustomerRolesPageTest" />
 		</classes>
 	</test>
 </suite>

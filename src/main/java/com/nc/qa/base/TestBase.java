@@ -1,6 +1,5 @@
 package com.nc.qa.base;
 
-import java.awt.Robot;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -19,7 +18,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
-	public static Robot robot;
+	
 	
 	public TestBase() throws IOException {
 		try {
